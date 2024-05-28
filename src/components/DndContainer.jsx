@@ -60,14 +60,7 @@ function DndContainer({ text }) {
                             <button type="submit">Submit</button>
                         </form>
                     )}
-
-
-                    
-
-<button onClick={handleButtonClick}>
-    {showInput ? 'Hide Input' : 'Show Input'}
-</button>
-                        <div onClick={handleButtonClick} className="gap-2 bg-transparent flex items-center mx-auto justify-center cursor-pointer w-60 text-[#44546F] font-bold transition-all rounded-xl duration-700 p-2 hover:p-2 hover:bg-[#5f5f5f97]"><FaPlus />Add a card</div>
+                    <div onClick={handleButtonClick} className="gap-2 bg-transparent flex items-center mx-auto justify-center cursor-pointer w-60 text-[#44546F] font-bold transition-all rounded-xl duration-700 p-2 hover:p-2 hover:bg-[#5f5f5f97]"><FaPlus />Add a card</div>
                     </div>
                 </div>
             </div>
