@@ -76,7 +76,7 @@ const App = () => {
         <DragDropContext onDragEnd={handleDragEnd}>
             <Droppable droppableId="all-containers" direction="horizontal" type="CONTAINER">
                 {(provided) => (
-                    <div ref={provided.innerRef} {...provided.droppableProps} className="flex gap-4">
+                    <div ref={provided.innerRef} {...provided.droppableProps} className="flex justify-center gap-20 mt-10">
                         {containers.map((container, index) => (
                             <DndContainer 
                                 key={container.id} 
