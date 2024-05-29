@@ -14,7 +14,7 @@ const initialContainers = [
         items: []
     },
     {
-      id: 'container-2',
+      id: 'container-3',
       text: 'Done',
       items: []
   }
