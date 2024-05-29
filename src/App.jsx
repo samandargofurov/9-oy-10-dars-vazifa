@@ -87,6 +87,7 @@ const App = () => {
                                 addItem={addItem} 
                             />
                         ))}
+                        
                         {provided.placeholder}
                     </div>
                 )}
